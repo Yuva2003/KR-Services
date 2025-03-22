@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#services {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#services h2 {
+    color: #007bff;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    font-size: 18px;
+    padding: 10px;
+    background: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 250px;
+}
+#pricing {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#pricing h2 {
+    color: #007bff;
+}
+
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pricing-card {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.pricing-card h3 {
+    color: #333;
+}
+
+.pricing-card p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+/* Ensure the page takes full height */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main content expands to push footer down */
+main {
+    flex: 1;
+}
+
+/* Styled footer */
+footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#about {
+    background: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-text h3 {
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text ul li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+#testimonials {
+    background: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.testimonial {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    color: #007bff;
+}
+
+#testimonials {
+    background: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+}
+
+.testimonial-carousel {
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial {
+    display: none;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: auto;
+    animation: fade 1s ease-in-out;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Review Form Styling */
+#review-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#review-form input, 
+#review-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#review-form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#contact {
+    background: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
